@@ -8,7 +8,7 @@ var locationn = document.getElementById("locationn");
 
 getWeather();
 async function getWeather(location='cairo') {
-    const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=a190e8b774a9408090a124259242806&q=${location}&days=3&aqi=no&alerts=no`);  
+    const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=a190e8b774a9408090a124259242806&q=${location}&days=3&aqi=no&alerts=no`);  
     if(response.status == 400) return;
     const result = await response.json();
     displayWeather(result);
