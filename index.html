@@ -13,7 +13,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg pt-5 pb-4">
-        <div class="container w-75">
+        <div class="container-fluid container-sm ">
             <a class="navbar-brand d-flex text-white" href="#">
                 <img src="./images/asset 0.png" alt="weather logo" class="logoImg">
                 <div class="logo ms-2">
@@ -57,14 +57,14 @@
                 <input type="text" class="form-control py-3 rounded-pill " placeholder="find your location..."
                     id="locationn">
                 <button
-                    class=" innerbtn rounded rounded-pill py-0 position-absolute top-50 translate-middle-y border-0 px-5"
+                    class=" innerbtn rounded rounded-pill py-0 position-absolute top-50 translate-middle-y border-0 px-3 px-sm-5"
                     type="button" id="find" onclick="findWeather()">Find</button>
             </div>
         </div>
 
     </header>
     <main>
-        <div class="container w-75 ">
+        <div class="container-fluid  container-sm px-4">
             <div class="row weather-table d-flex  px-0  rounded-3 overflow-hidden gy-3 h-100 ">
 
             </div>
@@ -72,19 +72,19 @@
         </div>
     </main>
     <footer>
-        <div class=" container container-md  py-4">
-            <div class="row d-flex justify-content-between align-items-center">
+        <div class=" container container-md  py-4 text-center text-sm-start">
+            <div class="row d-flex justify-content-between align-items-center ">
                 <div class="col-md-8">
                     <div class="d-flex  my-5 position-relative ">
                         <input type="text" class="form-control py-3 rounded-pill "
-                            placeholder="Enter your email to subscribe...">
+                            placeholder="Enter email to subscribe...">
                         <button
-                            class="innerbtn rounded rounded-pill py-2 px-4 position-absolute border-0 translate-middle-y top-50 "
+                            class="innerbtn rounded rounded-pill py-2 px-2 px-sm-4 position-absolute border-0 translate-middle-y top-50 "
                             type="button" id="button-addon2">Subscribe</button>
                     </div>
                 </div>
-                <div class="col-md-3 offset-1">
-                    <div class="icons d-flex">
+                <div class="col-md-3 offset-md-1  ">
+                    <div class="icons d-flex  justify-content-center">
                         <div
                             class="face-book icon-space text-center d-flex align-items-center justify-content-center rounded-circle me-1">
                             <a href="#" class=""><i class="fa-brands fa-facebook-f fs-5"></i></a>
@@ -106,7 +106,7 @@
             </div>
 
 
-            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            <p class="text-center text-md-start my-2">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
         </div>
 
 
